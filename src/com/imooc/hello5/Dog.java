@@ -20,8 +20,9 @@ public class Dog extends Animal{
 	}
 	
 	//重写
+	@Override
 	public void eat() {
-		System.out.println(this.getName()+"在偷吃");
+		System.out.println(this.getName()+"在偷吃(重写的)");
 		
 	}
 	

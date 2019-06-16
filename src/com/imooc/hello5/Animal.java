@@ -1,9 +1,10 @@
 package com.imooc.hello5;
 
-public class Animal {
+ public class Animal {
 	private String name;
 	private int month;
 	private String species;
+
 	
 	//添加无参构造方法
 	public Animal() {
@@ -12,6 +13,7 @@ public class Animal {
 	//添加有参构造方法
 	public String getName() {
 		return name;
+	
 	}
 
 	public void setName(String name) {

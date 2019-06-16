@@ -1,5 +1,6 @@
 package com.imooc.hello5;
 
+<<<<<<< HEAD
  public class Animal {
 	private String name;
 	private int month;
@@ -14,6 +15,20 @@ package com.imooc.hello5;
 	public String getName() {
 		return name;
 	
+=======
+public class Animal {
+	private String name;
+	private int month;
+	private String species;
+	
+	//添加无参构造方法
+	public Animal() {
+		
+	}
+	//添加有参构造方法
+	public String getName() {
+		return name;
+>>>>>>> branch 'master' of https://github.com/Evan099/Imooc4.git
 	}
 
 	public void setName(String name) {

@@ -5,7 +5,7 @@ public class Animal {
 	private String name;
 	private int month;
 	private String species;
-	
+	//存在冲突
 	//添加无参构造方法
 	public Animal() {
 		

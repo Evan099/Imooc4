@@ -1,0 +1,15 @@
+jdk8中的接口可以定义默认方法，类方法吗？
+默认方法和类方法的区别？
+
+以前，接口里的方法要求全部是抽象方法，java8以后允许在接口里定义默认方法和类方法：
+
+public interface MyInter {
+    default void df() {    //声明一个接口的默认方法
+        System.out.println("i'am default f");
+        sf();        //调用本接口的类方法
+    }
+ 
+    static void sf() {    //声明一个接口的类方法
+        System.out.println("i'am static f");
+    }
+}

@@ -29,14 +29,16 @@ public class Dog extends Animal{
 	
 	//子类重写了父类方法后，无法访问父类的方法，但是可以调用父类的方法
 	public static void main(String[] args) {
-		Animal xx = new Animal();//调用父类方法
+
+		Animal xx = new Animal();//可以调用父类方法，但不能访问父类方法，如果需要访问需要加super
 		xx.setName("xx");
 		xx.eat();
 		
 		Dog bb = new Dog();//调用重写父类的方法
 		bb.setName("bb");
 		bb.eat();
-				
+
+
 		
 		
 	}

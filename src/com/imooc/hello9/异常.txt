@@ -1,0 +1,15 @@
+try后面可以接0个或多个catch块，如果没有catch块，则必须跟一个finally块。
+
+
+Java 常见异常种类
+Java Exception：
+
+1、Error 
+2、Runtime Exception 运行时异常
+3、Exception 
+4、throw 用户自定义异常
+
+
+System.exit(1)：终止程序运行
+最好不要在catch和finally中使用return语句
+

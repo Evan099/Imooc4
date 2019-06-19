@@ -10,6 +10,13 @@ Java Exception：
 4、throw 用户自定义异常
 
 
-System.exit(1)：终止程序运行
+System.exit(1)：终止程序运行，括号里的数字只要不是0就可以
 最好不要在catch和finally中使用return语句
+
+throws:声明将要抛出的何种类型的异常
+throw:将产生的异常抛出
+
+通过throws抛出异常时，针对可能出现的多种异常情况，解决方案：
+1、throws后面接多个异常类型，中间用都好分隔
+2、throws后面接Exception
 

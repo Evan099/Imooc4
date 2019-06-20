@@ -22,7 +22,7 @@ public class TryDemoTwo {
 			System.out.println("除数不能为0~~~");
 			e.printStackTrace();
 		}catch (InputMismatchException e) {
-			System.exit(1);
+//			System.exit(1);
 			System.out.println("请输入整数~~~");
 			e.printStackTrace();
 		}catch (Exception e) {//防止前面没有捕获到，避免漏网之鱼，在最后定义一个收入囊中
